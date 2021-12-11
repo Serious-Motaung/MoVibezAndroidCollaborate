@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MoVibes</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="otp">OTP</string>
+    <string name="request_otp">Request OTP</string>
+    <string name="email_number">Email/phone number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="sing_up"><u>Sign Up</u></string>
+    <string name="Forgot_password"><u>Forgot Password?</u></string>
+    <string name="register">Register</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_share2">ShareActivity2</string>
+    <string name="title_activity_testing_function">TestingFunction</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Address"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Please enter address as indicated below."/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Street/House Number"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:id="@+id/etOtpEmailCell"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address 1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/AddAddress1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address 2"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/AddAddress2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address 3"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/AddAddress3"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Postal Code"
+        android:inputType="number"
+        android:id="@+id/AddPostal"/>
+
+    <CheckBox
+        android:id="@+id/chAddTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="I have verified the address provided above." />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Submit"
+        android:textColor="#FFF"
+        android:background="@color/design_default_color_primary"
+        android:id="@+id/AddSubmitButton"/>
+</LinearLayout>
